@@ -7,27 +7,45 @@
     color: white;
     width: 20%;
     height: 22px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    border: 1px solid green;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin:2px;
+    border: 1px solid #1c221c;
     width: fit-content;
+    height: fit-content;
 }
 
 
+.spanish,
+.nighttime {
+    background-color: lightcoral;
+    color: white;
+    width: 20%;
+    height: 22px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border: 1px solid #0c110c;
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    margin: 2px;
+}
+
 
 .menu {
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    background-color: lavender;
-    border: 1px solid red;
-    width: fit-content;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #e88c66;
+    border: 1.5px solid #b52323;
     position: fixed;
+    height:35px
+    height: fit-content
 }
 
 
 
 .menu button:hover {
-    color: green;
-    background-color: brown;
+    color: #4f6984;
+    background-color: #bfa37e;
 }
