@@ -1,0 +1,33 @@
+.work,
+.purpose,
+.contact,
+.about,
+.home {
+    background-color: lightcoral;
+    color: white;
+    width: 20%;
+    height: 22px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border: 1px solid green;
+    width: fit-content;
+}
+
+
+
+.menu {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: lavender;
+    border: 1px solid red;
+    width: fit-content;
+    position: fixed;
+}
+
+
+
+.menu button:hover {
+    color: green;
+    background-color: brown;
+}
