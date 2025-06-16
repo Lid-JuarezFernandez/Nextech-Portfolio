@@ -32,6 +32,7 @@
 }
 
 
+
 .menu {
     top: 0px;
     left: 0px;
@@ -39,7 +40,7 @@
     background-color: #e88c66;
     border: 1.5px solid #b52323;
     position: fixed;
-    height:35px
+    height:35px;
     height: fit-content
 }
 
@@ -48,4 +49,16 @@
 .menu button:hover {
     color: #4f6984;
     background-color: #bfa37e;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.new-message,
+.p1 {
+    display: none
 }
