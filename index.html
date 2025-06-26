@@ -4,34 +4,85 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
-        <div class = "menu">
-            <button class = "home">HOME</button>
-            <button class = "about">ABOUT</button>
-            <button class = "purpose">PURPOSE</button>
-            <button class = "work">WORKS</button>
-            <button class = "contact">CONTACT</button>
-            <button class = "nighttime">NIGHT MODE</button>
-            <button class = "spanish">ESP</button>
-        </div>
+</head>
+    <body>
     
-  <div class="opencontainer">
-    <img src = "https://wallpaperaccess.com/full/510990.jpg">
-    <p class = "topleftopen">Lidia C.<br>Juarez-Fernandez</p>
+    
+    <!---container that holds my navbar / menu-->
+
+    <div class = "menu">
+        <!--<button class = "open"><img src="images/menu-icon-2.jpg"></button>!-->
+        <button class = "homebutton">HOME</button>
+        <button class = "lifebutton">MY LIFE</button>
+        <button class = "purposebutton">PURPOSE</button>
+        <button class = "worksbutton">WORKS</button>
+        <button class = "contactbutton">CONTACT</button>
+        <button class = "nighttimebutton">NIGHT MODE</button>
+        <button class = "spanishbutton">ESP</button>
+    </div>
+
+<!--- end of container-->
+
+
+<!--container that is my home-->
+<!---- this is the container that  that holds my name and opening picture---->
+
+    <div class="introcontainer">
+        <img class = "intropicture" src = "https://wallpaperaccess.com/full/510990.jpg">
+        <p class = "introtopleftopen">Lidia C.<br>Juarez-Fernandez</p>
+    </div>
+
+<!---end of the container-->
+
+
+
+<!--- container that holds my proffesional picture and abouts with summaries of extracurricular -->
+
+  <div class="aboutmecontainer">
+            <h1>About Me!</h1>
+            <img class = "aboutpic" src="https://vistapointe.net/images/duck-7.jpg">
+            <p class = "aboutwords" src="images/Montserrat.zip">My name is Lidia Juarez-Fernandez and I'm a student at Mount Vernon Senior High School.<br>I'm going into junior year, taking the hardest classes possible.<br>I am on the robotics team, science and math academic team, and tennis. I am also in marching, concert and jazz bands and hope to do more activities this year!<br>I'm working on my dream to be in the STEM field.<br>Right now, I am a 2025 Capault at Nextech learning about vairous coding skills. I am woking on improving myself and learning.<br>My goal is be at the frontlines of innovation itself!</p>
   </div>
 
+<!--- end of container-->
 
 
-  <div class="selfie">
-            <h1>picture</h1>
+
+
+<!--- container that holds my collages of social media including my extracurriculars -->
+
+  <div class="lifecontainer">
+            <h1>My life!</h1>
+            <img class = "lifepic" src="https://vistapointe.net/images/duck-7.jpg">
+            <p class = "lifewords" src="images/Montserrat.zip">Band pics robotics academics!</p>
   </div>
 
-  <div class="purposesection">
-            <h1>picture</h1>
+<!--- end of container-->
+
+
+
+
+<!--- container that holds my purpose and study resources and recommediations -->
+
+  <div class="purposecontainer">
+            <h1>My Purpose</h1>
+            <p class = "purposewords">Ever since I was little I knew I wanted to do something lego-like.<br>
+                     Over the years, I have joined countless small events and clubs to help me narrow down my career interest. I had the help of Girls Who Code, popular youtubers such as Micheal Reeves, and academic teams to explore my interests. I had eventually narrowed down my future career to robotical engineer.<br>
+                     However, ever since I took my hardest math class, with the math teacher who has a reputation of being the hardest grader with the hardest math class, i have become unsure of my choice. Now my search includes possible careers such as data analyst and others. Now, comedically enough, I am completely unsure of what I want. One thing I do know however, is I want to work in the STEM field.<br>
+                     People have asked me why I love math and physics; why I get excited knowing how a Coca-Cola can opens with its mechanics. Why I adore watching documentaries about the greatest discoveries of mankind.
+                     <br>The answer?<br>Innovation<br> 
+                     The word that sometimes feels overused, insignificant, and glorified; seeing that word sometimes kills a bit of me because of how many times I hear it. But no matter how you see it, innovation is everywhere.<br>
+                     Cars? On the roads. Planes? In the skies. Phones? Look around and there it is. Pi, nuetrons, periodic element Neptunium to Oganesson, etc. All of these things have saved someone, in one way or another.<br>
+                     Innovation saves people.<br> My journey in finding out my career is really realizing how I will help people, how I can make someone smile and laugh again with my careers.<br>
+                     That is my goal in life.</p>
+            <img class = "purposepic" src="https://th.bing.com/th/id/R.8c3b2837c8dc1dcf092b44df6d6be047?rik=TRfQ4yBEys%2bSeg&riu=http%3a%2f%2fclipart-library.com%2fimages%2fzTX5zqXLc.jpg&ehk=st57H4WrBdGmFxToKvCEXTZ72kuI4Wmsfua4g6cEkhE%3d&risl=1&pid=ImgRaw&r=0">
   </div>
 
+  <!--- end of container-->
 
 
-  <!----
+
+  <!---- still in the works, commented for debugging purposes
   <div class="purpose-carosol">
         <div class = "imagecss">
             <h1>picture1</h1>
@@ -48,13 +99,24 @@
 
 /!--->
 
-  <div class="works">
-            <h1>work-1</h1>
-            <h1>work-2</h1>
-            <h1>work-3</h1>
-            <h1>work-4</h1>
+
+<!---container that holds my four works-->
+
+  <div class="workscontainer">
+    <h2 class = "workwords">Right now I am currently developing skills at python, css, html, and js. These are all of my works so far.</h2>     
+    <p>work-1</p>
+    <p>work-2</p>
+    <p>work-3</p>
+    <p>work-4</p>
   </div>
-  <div class="info">
+
+<!--- end of container-->
+
+
+
+<!--- container that hold my contatc infomation and resume-->
+
+  <div class="infocontainer">
     <input type="email" class = "email" placeholder="Type your email">
     <input type="name" class = "name" placeholder="Type your full name">
     <input type="comment" class = "comment "placeholder="Type your opionion">
@@ -62,6 +124,10 @@
     <p class = "received">Your message has been sent!</p1>
     <button class="newmessage">Would you like to send another message?</button>
   </div>
+
+<!--- end of container-->
+
+
 
 
 </body>

@@ -1,95 +1,80 @@
-.work,
-.purpose,
-.contact,
-.about,
-.home {
-    background-color: #898AC4;
-    color: #FFF2E0;
-    width: 20%;
-    height: 22px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin:2px;
-    border: 1px solid #1c221c;
-    width: fit-content;
-    height: fit-content;
+/*all menu options*/
+
+.worksbutton,
+.purposebutton,
+.contactbutton,
+.lifebutton,
+.homebutton {
+    background-color: #91AC8F;
+    color: #ffffff;
+    width: 12%;
+    height: 44px;
+    float: left;
+    text-align: center;
+    border: white;
+    text-decoration:none;
 }
 
 
-.spanish,
-.nighttime {
-    background-color: #898AC4;
-    color: #FFF2E0;
-    width: 20%;
-    height: 22px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    border: 1px solid #0c110c;
-    width: fit-content;
-    height: fit-content;
-    float: right;
-    margin: 2px;
+.spanishbutton,
+.nighttimebutton {
+    background-color: #91AC8F;
+    color: #ffffff;
+    width: 12%;
+    height: 44px;
+    float: right; 
+    border: white;
 }
 
 
 .menu {
-    top: 0px;
+    top:0;
+    position: sticky;
     left: 0px;
     right: 0px;
-    background-color: #A2AADB;
-    border: 1.5px solid #000000;
-    position: fixed;
-    height:35px;
-    height: fit-content;
+    background-color: #91AC8F;
+    height: 44px;
+    overflow: hidden;
     z-index: 9999;
-}
-
-
-.menu button:hover {
-    color: #4f6984;
-    background-color: #C0C9EE;
-}
-
-.info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.received,
-.newmessage {
-    display: none;
-}
-
-.head {
     margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.body {
-    background-color: #FFF2E0;
-    margin: 0%;
     padding: 0%;
 }
 
 
-.openconatiner {
+.menu button:hover {
+    color: #2478ce;
+    background-color: #C0C9EE;
+}
+
+
+/*end of all menu options */
+
+/*home container*/
+/*container that hold my intro pictures and name*/
+
+.introcontainer {
+    display: flex;
     position: relative;
     text-align: center;
     color: white;
-    width: 100vw;
     height: 120vh;
     object-fit: contain;
+    margin: 0%;
+    padding :0%;
 }
 
-.topleftopen {
+.intropicture{
+    width: 100%;
+    margin:0%;
+    margin-bottom: 0%;
+}
+
+.introtopleftopen {
     position: absolute;
-    top: 60px;
-    left: 40px;
-    font-size: 77px;
-    line-height: 117px;
+    top: 40px;
+    left: 20px;
+    font-size: 57px;
+    line-height: 90px;
     padding-left:25px;
     padding-right: 25px;
     padding-top:25px;
@@ -98,15 +83,170 @@
     background-color: rgb(0 0 0 / 33%);
 }
 
+/*end of intro container*/
 
-.selfie {
+.aboutmecontainer {
     background-color: #C0C9EE;
+    margin-top: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height:150vh;
 }
 
-.purposesection {
+
+.aboutwords {
+    flex: 1;
+    height:80%;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 24px;
+    font-weight:540;
+    background-color: rgb(137 138 196/ 43%);
+}
+
+.aboutpic {
+    max-width: 45%; 
+    height: 300px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+
+
+/*end of home container*/
+/*container that holds my life*/
+
+
+.lifecontainer {
+    background-color: #C0C9EE;
+    margin-top: 0%;
+    padding: 0%;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: space-between; 
+    height:150vh;
+    
+}
+
+
+.lifewords {
+    flex: 1;
+    display: none;
+    height:80%;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 24px;
+    font-weight:540;
+    background-color: rgb(137 138 196/ 43%);
+}
+
+.lifepic {
+    display: none;
+    max-width: 45%; 
+    height: 300px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+/*end of life container*/
+/*container that holds my purose*/
+
+
+.purposecontainer {
     background-color: #A2AADB;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: space-between; 
+    
 }
 
-.works {
+.purposewords {
+    flex: 1;
+    margin-right: 50px;
+    text-align: center;
+    margin-left:10%;
+    font-size: 24px;
+    font-weight:540;
+    background-color: rgb(192 201 238/ 43%);
+}
+
+.purposepic {
+    max-width: 70%; 
+    display: none;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 74px;
+    margin-left:50px;
+}
+
+/*end of purpose container*/
+/*container that holds my works*/
+
+.workscontainer {
     background-color: #898AC4;
+    display: grid;
+    display: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.workwords {
+    flex: 1;
+    margin-right: 50px;
+    text-align: center;
+    margin-left:10%;
+    font-size: 24px;
+    font-weight:540;
+    background-color: rgb(192 201 238/ 43%);
+}
+
+/*end of work container*/
+/*container that holds my contact info*/
+
+
+.infocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    background-color: #C0C9EE;
+    height:50vh;
+}
+
+
+.received,
+.newmessage {
+    display: none;
+}
+
+/*end of contact info container*/
+
+
+
+
+
+
+.head {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color:#7c7c7c;
+}
+
+.body {
+    background-color: #b41c1c;
+    margin: 0%;
+    padding: 0%;
 }
