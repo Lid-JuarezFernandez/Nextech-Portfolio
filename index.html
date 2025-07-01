@@ -4,10 +4,14 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  </head>
     <body>
-    
-    
     <!---container that holds my navbar / menu-->
 
     <div class = "menu">
@@ -18,7 +22,7 @@
         <button class = "worksbutton">WORKS</button>
         <button class = "contactbutton">CONTACT</button>
         <button class = "nighttimebutton">NIGHT MODE</button>
-        <button class = "spanishbutton">ESP</button>
+        <!--<button class = "spanishbutton">ESPA</button>-!>
     </div>
 
 <!--- end of container-->
@@ -38,12 +42,24 @@
 
 <!--- container that holds my proffesional picture and abouts with summaries of extracurricular -->
 
-  <div class="aboutmecontainer">
-            <h1>About Me!</h1>
-            <img class = "aboutpic" src="https://vistapointe.net/images/duck-7.jpg">
-            <p class = "aboutwords" src="images/Montserrat.zip">My name is Lidia Juarez-Fernandez and I'm a student at Mount Vernon Senior High School.<br>I'm going into junior year, taking the hardest classes possible.<br>I am on the robotics team, science and math academic team, and tennis. I am also in marching, concert and jazz bands and hope to do more activities this year!<br>I'm working on my dream to be in the STEM field.<br>Right now, I am a 2025 Capault at Nextech learning about vairous coding skills. I am woking on improving myself and learning.<br>My goal is be at the frontlines of innovation itself!</p>
-  </div>
+    <div class="aboutmecontainer">
+        <h1 class = "aboutheader">About Me!</h1>
+      <div>
+        <img class = "aboutpic" src="https://vistapointe.net/images/duck-7.jpg">
+        <p class = "aboutwords" src="images/Montserrat.zip">My name is Lidia Juarez-Fernandez and I'm a student at Mount Vernon Senior High School going into junior year.<br><br>
+        I'm working on my dream to be in the STEM field.<br>
+        Right now, I am a 2025 Capault at Nextech learning about various coding skills. I am woking on improving myself and learning.<br>
+        My goal is be at the frontlines of innovation itself!</p>
+        <div>
+        <img class = "aboutpic2" src="https://vistapointe.net/images/duck-7.jpg">
+        <p class = "aboutwords2" src="images/Montserrat.zip">I am on the robotics team, science and math academic team, and tennis. I am also in marching, concert and pep bands and hope to do more activities this year.</p>        
+        <div>
+        <p class = "aboutwords3" src="images/Montserrat.zip">"Whatever can happen will happen"<br>-Interstellar</p>
 
+      </div>
+      </div>
+      </div>
+    </div>
 <!--- end of container-->
 
 
@@ -52,9 +68,7 @@
 <!--- container that holds my collages of social media including my extracurriculars -->
 
   <div class="lifecontainer">
-            <h1>My life!</h1>
-            <img class = "lifepic" src="https://vistapointe.net/images/duck-7.jpg">
-            <p class = "lifewords" src="images/Montserrat.zip">Band pics robotics academics!</p>
+            <h1 class = "lifeheader">Media</h1>
   </div>
 
 <!--- end of container-->
@@ -117,12 +131,35 @@
 <!--- container that hold my contatc infomation and resume-->
 
   <div class="infocontainer">
-    <input type="email" class = "email" placeholder="Type your email">
-    <input type="name" class = "name" placeholder="Type your full name">
-    <input type="comment" class = "comment "placeholder="Type your opionion">
-    <button class="sendButton">send</button>
-    <p class = "received">Your message has been sent!</p1>
-    <button class="newmessage">Would you like to send another message?</button>
+    <h class = "contactheader">Contact Me</h>
+    <div>
+      <p class = "infoword">Email: jud3z.l70@gmail.com<br>Phone Number: 812-781-2871<br>Location: Mount Vernon, Indiana</p>
+      <input type="email" class = "email" placeholder="Type your email">
+      <div>
+        <input type="name" class = "name" placeholder="Type your full name">
+        <div>
+        <input type="comment" class = "comment "placeholder="Type your opinion">
+        <div>
+          <button class="sendButton">send</button>
+          <p class = "received">Your message has been sent!</p1>
+          <button class="newmessage">Would you like to send another message?</button>
+          <a href = "https://github.com/Lid-JuarezFernandez">
+            <div class = "github">
+              <img src = "https://avatars.githubusercontent.com/u/9919?s=280&v=4" class = "githubpic">
+              <p class = "githubword">Github</p>
+            </div>
+          </a>
+          <a href = "https://www.linkedin.com/in/lidia-juarez-fernandez-979563372/">
+            <div class = "link">
+              <img src = "https://pbs.twimg.com/media/F7m7wlHboAEBSqa.jpg" class = "linkpic">
+              <p class = "linkword">Linkedin</p>
+            </div>
+          </a>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
   </div>
 
 <!--- end of container-->

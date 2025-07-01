@@ -7,8 +7,9 @@
 .homebutton {
     background-color: #91AC8F;
     color: #ffffff;
-    width: 12%;
-    height: 44px;
+    width: 12vw;
+    height: 4vh;
+    font-size:1vw;
     float: left;
     text-align: center;
     border: white;
@@ -20,8 +21,9 @@
 .nighttimebutton {
     background-color: #91AC8F;
     color: #ffffff;
-    width: 12%;
-    height: 44px;
+    width: 12vw;
+    height: 4vh;
+    font-size:1vw;
     float: right; 
     border: white;
 }
@@ -33,7 +35,7 @@
     left: 0px;
     right: 0px;
     background-color: #91AC8F;
-    height: 44px;
+    height: 4vh;
     overflow: hidden;
     z-index: 9999;
     margin-top: 0%;
@@ -42,8 +44,8 @@
 
 
 .menu button:hover {
-    color: #2478ce;
-    background-color: #C0C9EE;
+    color: #91AC8F;
+    background-color: #66785F;
 }
 
 
@@ -59,6 +61,7 @@
     color: white;
     height: 120vh;
     object-fit: contain;
+    margin-top: 0%;
     margin: 0%;
     padding :0%;
 }
@@ -71,14 +74,15 @@
 
 .introtopleftopen {
     position: absolute;
-    top: 40px;
-    left: 20px;
-    font-size: 57px;
-    line-height: 90px;
-    padding-left:25px;
-    padding-right: 25px;
-    padding-top:25px;
-    padding-bottom:25px;
+    font-family: "Kantumruy Pro", sans-serif;
+    left: 2.15vw;
+    font-size: 4vw;
+    line-height: 13vh;
+    margin-top: 19vh;
+    padding-left: 1.65vw;
+    padding-right: 1.65vw;
+    padding-top: 1.65vw;
+    padding-bottom:1.65vw;
     color: white;
     background-color: rgb(0 0 0 / 33%);
 }
@@ -89,32 +93,110 @@
     background-color: #C0C9EE;
     margin-top: 0%;
     padding: 0%;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    height:150vh;
+    justify-content: space-between;
+    height: 310vh;
+}
+
+.aboutheader {
+    margin:  0;
+    padding: 0;
+    top: 0;
+    left: 0; 
+    position: absolute;
+    vertical-align: top;
+    font-size: 5vw;
+    line-height: 3.8vh;
+    padding-left:7vw;
+    padding-right: 20vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    color: white;
+    background-color: rgb(0 0 0 / 33%);
 }
 
 
 .aboutwords {
-    flex: 1;
-    height:80%;
-    margin-right: 50px;
+    display:flex;
+    position: absolute;
+    top: 40vh;
+    right: 0vw;
+    width: 40vw;
+    margin-right:5vw;
     text-align: center;
-    margin-left: 10%;
-    font-size: 24px;
+    font-size: 1.8vw;
+    line-height:5vh;
     font-weight:540;
+    padding: 1vw;
     background-color: rgb(137 138 196/ 43%);
+    font-family: "Montserrat", sans-serif;
 }
 
 .aboutpic {
-    max-width: 45%; 
-    height: 300px;
-    margin-top: 120px;
-    margin-bottom: 100px;
-    margin-left: 50px;
+    position: absolute;
+    max-width: 40vw;
+    top: 30vh;
+    height: 80vh;
+    margin-right: 7vw;
+    margin-left: 4vw;
 }
 
+
+.aboutwords2 {
+    display:flex;
+    position: absolute;
+    left: 3vw;
+    bottom: 110vh;
+    width: 35vw;
+    margin-right:5vw;
+    text-align: center;
+    font-size: 1.8vw;
+    line-height:5vh;
+    font-weight:540;
+    padding: 1vw;
+    background-color: rgb(137 138 196/ 43%);
+    font-family: "Montserrat", sans-serif;
+}
+
+.aboutpic2 {
+    position: absolute;
+    bottom: 96vh;
+    right: 0vw;
+    max-width: 60vw;
+    height: 70vh;
+    margin-right: 7vw;
+    margin-left: 4vw;
+}
+
+
+.aboutwords3 {
+    display: flex;
+    position: absolute;
+    bottom: 7vh;
+    width: 80vw;
+    height: fit-content;
+    margin-left: 7.7vw;
+    margin-right: 5vw;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 10vh;
+    font-weight: 500;
+    padding: 1vw;
+    background-color: rgb(137 138 196 / 43%);
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.aboutpic3 {
+    bottom: 10vh;
+    position: absolute;
+    max-width: 55vw;
+    height: 80vh;
+    margin-right: 7vw;
+    margin-left: 4vw;
+}
+ 
 
 
 /*end of home container*/
@@ -122,32 +204,31 @@
 
 
 .lifecontainer {
-    background-color: #C0C9EE;
+    background-color: #A2AADB;
     margin-top: 0%;
     padding: 0%;
-    display: flex;
+    position: relative;
+    display: flex;    
     display: none;
     align-items: center;
     justify-content: space-between; 
-    height:150vh;
-    
+    height:100vh;
 }
 
 
 .lifewords {
     flex: 1;
-    display: none;
     height:80%;
     margin-right: 50px;
     text-align: center;
     margin-left: 10%;
     font-size: 24px;
     font-weight:540;
-    background-color: rgb(137 138 196/ 43%);
+    background-color: #C0C9EE;
 }
 
 .lifepic {
-    display: none;
+    flex: 1;
     max-width: 45%; 
     height: 300px;
     margin-top: 120px;
@@ -155,18 +236,36 @@
     margin-left: 50px;
 }
 
+.lifeheader {
+    margin:  0;
+    padding: 0;
+    top: 0;
+    left: 0; 
+    position: absolute;
+    vertical-align: top;
+    font-size: 5vw;
+    line-height: 3.8vh;
+    padding-left:7vw;
+    padding-right: 20vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    color: white;
+    background-color: rgb(0 0 0 / 33%);
+}
+
 /*end of life container*/
 /*container that holds my purose*/
 
 
 .purposecontainer {
-    background-color: #A2AADB;
+    background-color: #C0C9EE;
     margin: 0%;
     padding: 0%;
     display: flex;
     display: none;
     align-items: center;
     justify-content: space-between; 
+    height: 100vh;
     
 }
 
@@ -177,12 +276,11 @@
     margin-left:10%;
     font-size: 24px;
     font-weight:540;
-    background-color: rgb(192 201 238/ 43%);
+    background-color: #A2AADB;
 }
 
 .purposepic {
     max-width: 70%; 
-    display: none;
     height: 400px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -194,11 +292,12 @@
 /*container that holds my works*/
 
 .workscontainer {
-    background-color: #898AC4;
+    background-color: #A2AADB;
     display: grid;
     display: none;
     margin: 0%;
     padding: 0%;
+    height: 100vh
 }
 
 
@@ -209,7 +308,7 @@
     margin-left:10%;
     font-size: 24px;
     font-weight:540;
-    background-color: rgb(192 201 238/ 43%);
+    background-color: #C0C9EE;
 }
 
 /*end of work container*/
@@ -220,23 +319,128 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     display:none;
     background-color: #C0C9EE;
-    height:50vh;
+    height:100vh;
 }
 
+.contactheader {
+    margin:  0;
+    padding: 0;
+    top: 0;
+    left: 0; 
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    vertical-align: top;
+    font-size: 3vw;
+    line-height: 3.8vh;
+    padding-left:7vw;
+    padding-right: 15vw;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    color: white;
+    background-color: rgb(0 0 0 / 33%);
+}
+
+.email {
+    width: 60vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+}
+
+.name {
+    width: 60vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+}
+
+.comment {
+    width: 60vw;
+    height: 30vh;
+}
+
+.sendButton {
+    width: 7vw;
+    height: 4vh;
+    margin-top: 2vh;
+}
+
+.received {
+    width: 45vw;
+    position: absolute;
+    font-size: 4vh;
+    right: 19vw;
+}
+
+.newmessage {
+    width: 25vw;
+    height: 4vh;
+    position: absolute;
+    top: 6.9vh;
+    left: 2vw;
+    border: white;
+}
 
 .received,
 .newmessage {
     display: none;
 }
 
+.link {
+    position: absolute;
+    width: 7vw;
+    height: 15vh;
+    bottom: 3vh;
+    left: 3vw;
+}
+
+.linkword {
+    width: 5vw;
+    height: 5vh;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+}
+
+.linkpic {
+    width: 6vw;
+    height: 10vh;
+}
+
+
+.github {
+    position: absolute;
+    width: 7vw;
+    height: 15vh;
+    bottom: 3vh;
+    right: 3vw;
+}
+
+.githubword {
+    width: 5vw;
+    height: 5vh;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+}
+
+.githubpic {
+    width: 6vw;
+    height: 10vh;
+}
+
+
 /*end of contact info container*/
-
-
-
-
-
+/*general styling*/
 
 .head {
     margin-top: 0%;
@@ -250,3 +454,32 @@
     margin: 0%;
     padding: 0%;
 }
+
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+
+
+/*credit to Google Fonts for font family 'Montserrat'*/
+.montserrat-paragraphfont {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/*credit to Google Fonts for font family 'Kantumruy Pro'*/
+.kantumruy-pro-headerfont {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
