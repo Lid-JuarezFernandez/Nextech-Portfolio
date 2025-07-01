@@ -28,6 +28,9 @@
     border: white;
 }
 
+.spanishbutton {
+    display: none;
+}
 
 .menu {
     top:0;
@@ -208,11 +211,11 @@
     margin-top: 0%;
     padding: 0%;
     position: relative;
-    display: flex;    
+    display: flex;
     display: none;
     align-items: center;
-    justify-content: space-between; 
-    height:100vh;
+    justify-content: space-between;
+    height: fit-content;
 }
 
 
@@ -229,29 +232,150 @@
 
 .lifepic {
     flex: 1;
-    max-width: 45%; 
-    height: 300px;
-    margin-top: 120px;
-    margin-bottom: 100px;
-    margin-left: 50px;
+    max-width: 43%;
+    height: 77vh;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: 5vw;
 }
 
 .lifeheader {
     margin:  0;
     padding: 0;
     top: 0;
-    left: 0; 
+    left: 0;
     position: absolute;
     vertical-align: top;
     font-size: 5vw;
     line-height: 3.8vh;
     padding-left:7vw;
-    padding-right: 20vw;
+    padding-right: 13vw;
     padding-top:2vh;
     padding-bottom:2vh;
     color: white;
     background-color: rgb(0 0 0 / 33%);
 }
+
+.mountvernon {
+    width: 10vw;
+    height:20vh;
+    margin-bottom: 23vh;
+}
+
+.mountpic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.mountword {
+    width: 5vw;
+    height: 10vh;
+    text-decoration: none;
+}
+
+.Tennis {
+    width: 10vw;
+    height:20vh;
+}
+
+.tennispic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.tennisword {
+    width: 5vw;
+    height: 10vh;
+    text-decoration: none;
+    color: black;
+}
+
+.Band {
+    width: 10vw;
+    height:20vh;
+}
+
+.bandpic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.Bandword {
+    width: 5vw;
+    height: 10vh;
+}
+
+.theater {
+    width: 10vw;
+    height:20vh;
+}
+
+.theaterpic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.theaterword {
+    width: 5vw;
+    height: 10vh;
+}
+
+.robot {
+    width: 10vw;
+    height:20vh;
+}
+
+.robotpic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.robotword {
+    width: 5vw;
+    height: 10vh;
+}
+
+.tiktok {
+    width: 10vw;
+    height:20vh;
+}
+
+.tiktokpic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.tiktokword {
+    width: 5vw;
+    height: 10vh;
+}
+
+.reddit {
+    width: 10vw;
+    height:20vh;
+}
+
+.redditpic {
+    width: 10vw;
+    height: 20vh;
+}
+
+.redditword {
+    width: 5vw;
+    height: 10vh;
+}
+
+.lifecontainertwo {
+    background-color: #A2AADB;
+    margin-top: 0%;
+    padding: 0%;
+    position: relative;
+    display: flex;    
+    display: none;
+    align-items: center;
+    justify-content: space-between; 
+}
+
 
 /*end of life container*/
 /*container that holds my purose*/
@@ -343,6 +467,12 @@
     background-color: rgb(0 0 0 / 33%);
 }
 
+.infoword {
+    font-size: large;
+    line-height: 4vh;
+}
+
+
 .email {
     width: 60vw;
     height: 5vh;
@@ -403,7 +533,7 @@
     font-size: large;
     font-weight: 500;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 0vw;
     margin-top: 1vh;
 }
 
@@ -428,7 +558,7 @@
     color: black;
     font-size: large;
     font-weight: 500;
-    margin-right: auto;
+    margin-right: 1.5vw;
     margin-left: auto;
     margin-top: 1vh;
 }
@@ -436,6 +566,10 @@
 .githubpic {
     width: 6vw;
     height: 10vh;
+}
+
+.no_under{
+    text-decoration: none !important;
 }
 
 
@@ -482,4 +616,3 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
-
