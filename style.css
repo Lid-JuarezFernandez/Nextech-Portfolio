@@ -145,6 +145,7 @@
     height: 80vh;
     margin-right: 7vw;
     margin-left: 4vw;
+    border: black, solid, 0.3vw;
 }
 
 
@@ -170,8 +171,9 @@
     right: 0vw;
     max-width: 60vw;
     height: 70vh;
-    margin-right: 7vw;
-    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-left: 5vw;
+    border: black, solid, 0.3vw;
 }
 
 
@@ -238,6 +240,7 @@
     margin-top: 30vh;
     margin-bottom: 30vh;
     margin-left: 5vw;
+    border: black, solid, 0.3vw;
 }
 
 .lifeheader {
@@ -544,6 +547,7 @@
     height: 70vh;
     margin-top: auto;
     margin-right: auto;
+    border: black, solid, 0.3vw;
 }
 
 /*end of purpose container*/
@@ -582,7 +586,7 @@
     text-align: center;
     width: 10vw;
     margin-bottom: 0vh;
-    font-size: 24px;
+    font-size: 42px;
     font-weight: 540;
     background-color: #C0C9EE;
     height: 70vh;
@@ -615,6 +619,7 @@
     height: 20vh;
     border-radius: 50%;
     align-self: center;
+    border: black, solid, 0.3vw;
 }
 
 .CSS,
